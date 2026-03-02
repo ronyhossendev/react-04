@@ -1,0 +1,7 @@
+@import "tailwindcss";
+@theme {
+  --color-btnClr: #D6A033;
+  --font-paprika: "Poppins", system-ui;
+  --font-openSans: "open Sans", sans-serif;
+  --font-Playfair: "Playfair Display",serif;
+}
