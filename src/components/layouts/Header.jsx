@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
-<div className="sticky top-0 left-0 w-full bg-white/30 backdrop-blur-3xl shadow-lg">
+<div className="sticky top-0 left-0 w-full bg-[#C4C4C4] backdrop-blur-3xl shadow-lg">
   <Container>
     <Flex className="justify-between">
       <div className="py-5">
