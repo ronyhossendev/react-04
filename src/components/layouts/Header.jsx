@@ -10,25 +10,27 @@ import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
-<div className="bg-gray-400 py-5">
+<div className="sticky top-0 left-0 w-full bg-white/30 backdrop-blur-3xl shadow-lg">
   <Container>
     <Flex className="justify-between">
-      <div className="">
+      <div className="py-5">
         <Link to={"/"}>
         <Image imgSrc={logo}/>
         </Link>
         </div>
         <div className=" ">
           <ul className="flex items-center gap-x-16">
-            <li className="font-openSans text-white font-semibold text-[18px] hover:text-btnClr">
+            <li className="font-openSans text-black font-semibold text-[18px] hover:text-btnClr">
               <Link to={"/"}>Home</Link></li>
-            <li className="font-openSans text-white font-semibold text-[18px] hover:text-btnClr">
+            <li className="font-openSans text-black font-semibold text-[18px] hover:text-btnClr">
             <Link to={"About"}>About</Link>
             </li>
-            <li className="font-openSans text-white font-semibold text-[18px] hover:text-btnClr">Service</li>
-            <li className="font-openSans text-white font-semibold text-[18px] hover:text-btnClr">Portfolio</li>
-            <li className="font-openSans text-white font-semibold text-[18px] hover:text-btnClr">Price</li>
-            <li className="font-openSans text-white font-semibold text-[18px] hover:text-btnClr">Blog</li>
+            <li className="font-openSans text-black font-semibold text-[18px] hover:text-btnClr">
+              <Link to={"service"}>Service</Link>
+            </li>
+            <li className="font-openSans text-black font-semibold text-[18px] hover:text-btnClr">Portfolio</li>
+            <li className="font-openSans text-black font-semibold text-[18px] hover:text-btnClr">Price</li>
+            <li className="font-openSans text-black font-semibold text-[18px] hover:text-btnClr">Blog</li>
           </ul>
         </div>
        <div className="">
