@@ -18,7 +18,7 @@ const Service = () => {
             <h3 className="text-[#363024] font-Open Sans w-[431px] font-extrabold text-[48px] mt-[100px] pb-5 ">
               We're Here To Service Your Hair Care Needs
             </h3>
-            <p className="text-[#524D43] font-paprika font-normal text-[20px] w-[649px] leading-[32px]">
+            <p className="text-[#524D43] font-paprika font-normal text-[27px] w-[649px] leading-[32px]">
               House of Hair Salon & Spa is one of Brooklyn's most trusted
               salons. Whether you’re looking for a completely new style or want
               to enhance your existing look, our talented teams are here to make
