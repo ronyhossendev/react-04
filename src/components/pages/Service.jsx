@@ -14,7 +14,7 @@ const Service = () => {
        
          <div className="bg-[#C4C4C4] w-[458px] h-[528px] mt-[100px] ml-6 "></div>
   <div className="ml-[62px]">         <h3 className="text-[#363024] font-Open Sans w-[431px] h-[180] font-extrabold text-[48px] mt-[100px] ">We're Here To Service Your Hair Care Needs</h3>
-           <p className="text-[#524D43] font-paprika font-normal  mt-5 text-[20px] w-[649px] h-[116px]">House of Hair Salon & Spa is one of Brooklyn's most trusted salons. Whether you’re looking for a completely new style or want to enhance your existing look, our talented teams are here to make it happen.</p>
+           <p className="text-[#524D43] font-paprika font-normal mt-5 text-[20px] w-[649px] h-[116px]">House of Hair Salon & Spa is one of Brooklyn's most trusted salons. Whether you’re looking for a completely new style or want to enhance your existing look, our talented teams are here to make it happen.</p>
            <Button className={"mt-6"} btnText={"Learn More"}/> 
            </div>
            </div>
